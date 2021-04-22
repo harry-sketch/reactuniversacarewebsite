@@ -1,0 +1,41 @@
+#header {
+  min-height: 8vh;
+  margin-bottom: 0.2rem;
+  box-shadow: 0 10px 20px -1px rgb(249, 250, 250);
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: blue;
+}
+
+.header_head {
+  margin-left: 0.5rem;
+}
+
+.header_head h4 {
+  cursor: pointer;
+  font-size: 0.7rem;
+  font-weight: 700;
+}
+
+// Header Responsive
+
+@media only screen and (max-width: 434px) {
+  #header {
+    text-align: center;
+  }
+
+  .header_head h4 {
+    font-size: 0.6rem;
+  }
+}
+@media only screen and (max-width: 434px) {
+  #header {
+    text-align: center;
+  }
+
+  .header_head h4 {
+    font-size: 0.6rem;
+  }
+}

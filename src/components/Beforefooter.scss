@@ -1,0 +1,230 @@
+#beforefoot {
+  width: 100%;
+  height: 80vh;
+  padding: 5% 10%;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  grid-gap: 1rem;
+}
+
+.first_div {
+  width: 240px;
+  height: 280px;
+  margin-left: 3rem;
+}
+
+.bf_img {
+  margin-right: 0.3rem;
+}
+.first_para {
+  font-size: 0.9rem;
+  margin-bottom: 0.6rem;
+}
+
+.first_div input {
+  width: 100%;
+  padding: 0.7rem 0.6rem;
+  outline: none;
+  background-color: #cfd0d7;
+  border: 1px solid #cfd0d7;
+  margin: 0.4rem 0rem;
+}
+.first_div button {
+  padding: 0.6rem 0.7rem;
+  outline: none;
+  background-color: #0047ab;
+  border: 1px solid #0047ab;
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.first_div button:hover {
+  background-color: #fff;
+  color: #0047ab;
+}
+.foot_img {
+  width: 150px;
+  cursor: pointer;
+  margin-top: 0.4rem;
+}
+.first {
+  width: 180px;
+  height: 230px;
+  margin-left: 5rem;
+}
+
+.empty {
+  width: 25px;
+  height: 3px;
+  background-color: #ff8400;
+  margin-bottom: 0.6rem;
+}
+.bf_head {
+  color: #ff8400;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  margin-bottom: 0.6rem;
+}
+
+.paragraph {
+  font-size: 0.8rem;
+  margin-bottom: 0.3rem;
+}
+.end {
+  display: flex;
+  margin-top: 0.5rem;
+}
+
+.end p {
+  font-size: 0.8rem;
+  margin-right: 0.3rem;
+}
+
+.end i {
+  color: #0047ab;
+  cursor: pointer;
+  margin-right: 0.4rem;
+}
+
+.footer_item {
+  list-style: none;
+}
+
+.footer_item a {
+  text-decoration: none;
+  color: #000;
+  display: block;
+  font-size: 0.8rem;
+  padding: 0.5rem;
+  font-weight: 500;
+}
+.footer_item a i {
+  color: #ff8400;
+}
+
+.first_div img {
+  max-width: 100%;
+}
+
+
+
+
+
+
+
+// Responsive
+
+@media screen and (max-width: 1075px) {
+  #beforefoot {
+    padding: 3% 6%;
+    height: 90vh;
+  }
+
+  .first {
+    width: 170px;
+    height: 215px;
+    margin-left: 2rem;
+  }
+  .first_div {
+    width: 220px;
+    height: 250px;
+    // background-color: burlywood;
+    margin-left: 1rem;
+  }
+}
+
+@media only screen and (max-width: 492px) {
+  #beforefoot {
+    height: 100vh;
+    padding: 12% 4%;
+    grid-gap: 0.5rem;
+  }
+  .first {
+    width: 150px;
+    height: 190px;
+    margin-left: 1rem;
+  }
+  .first_div {
+    width: 190px;
+    height: 200px;
+    margin-left: 0.9rem;
+  }
+  .first_div img {
+    max-width: 25%;
+  }
+  .first_div input {
+    width: 95%;
+  }
+  .first_para {
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+  }
+  .footer_item a {
+    font-size: 0.7rem;
+    padding: 0.4rem;
+  }
+  .bf_head {
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+  }
+  .first_div button {
+    padding: 0.5rem 0.6rem;
+    margin-bottom: 0.4rem;
+    font-size: 0.7rem;
+  }
+}
+@media only screen and (max-width: 400px) {
+  #beforefoot {
+    height: 100vh;
+    padding: 0%;
+  }
+  .first {
+    width: 150px;
+    height: 120px;
+    // background-color: brown;
+    margin: 0 auto;
+  }
+  .first_div {
+    width: 150px;
+    height: 120px;
+    margin: auto;
+  }
+  .first_div img {
+    max-width: 10%;
+  }
+  .first_div input {
+    width: 90%;
+    padding: 4px 6px;
+  }
+  .first_para {
+    font-size: 0.5rem;
+  }
+  .footer_item a {
+    font-size: 10px;
+    padding: 2px;
+  }
+  .bf_head {
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+  }
+  .first_div button {
+    padding: 4px 5px;
+    margin-bottom: 0.4rem;
+    font-size: 8px;
+  }
+  .paragraph {
+    font-size: 8px;
+  }
+  .end p {
+    font-size: 8px;
+  }
+  .end i {
+    font-size: 8px;
+  }
+}

@@ -1,0 +1,121 @@
+#health {
+  display: flex;
+  height: 50vh;
+  position: relative;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #395fa9;
+  margin-bottom: 0.1rem;
+}
+
+.health_content .health_head {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 2rem;
+  letter-spacing: 2;
+  margin-top: 0.7rem;
+}
+.health_content button {
+  display: block;
+  width: 60%;
+  font-weight: bold;
+  cursor: pointer;
+  border: 1px solid #0047ab;
+  outline: none;
+  text-transform: uppercase;
+  padding: 1rem 0.8rem;
+  transition: all 0.1s ease;
+  color: #0047ab;
+}
+
+.health_content button:hover {
+  background-color: #0047ab;
+  color: #fff;
+}
+.health_secondary {
+  margin-bottom: 0.8rem;
+}
+.health_img {
+  max-width: 100%;
+  object-fit: cover;
+}
+.health_icon {
+  cursor: pointer;
+  position: absolute;
+  right: 18%;
+  bottom: -5%;
+  z-index: 3;
+  background-color: #0047ab;
+  border-radius: 50%;
+  color: #fff;
+}
+
+
+
+
+
+// Responsive
+
+@media only screen and (max-width: 920px) {
+  #health {
+    height: 60vh;
+    flex-direction: column;
+  }
+
+  .health_content .health_head {
+    font-size: 1.4rem;
+    margin-top: 0.6rem;
+  }
+  .health_img {
+    max-width: 27%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .health_img {
+    max-width: 32%;
+  }
+  .health_content button {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 572px) {
+  .health_img {
+    max-width: 40%;
+  }
+  .health_content button {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 406px) {
+  .health_content .health_head {
+    font-size: 1.2rem;
+  }
+  .health_img {
+    max-width: 44%;
+  }
+  .health_content button {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 337px) {
+  .health_content .health_head {
+    font-size: 1rem;
+  }
+  .health_img {
+    max-width: 50%;
+  }
+  .health_content button {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 280px) {
+  .health_content .health_head {
+    font-size: 0.8rem;
+  }
+  .health_img {
+    max-width: 55%;
+  }
+  .health_content button {
+    width: 100%;
+  }
+}

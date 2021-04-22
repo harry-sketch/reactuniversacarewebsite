@@ -1,0 +1,41 @@
+#after{
+    min-height:10vh;
+    background-color: #FFC03D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.after_head{
+    margin-left:0.5rem;
+}
+.after_head h4{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-size:0.9rem;
+}
+
+
+
+// Responsive
+@media only screen and (max-width:434px){
+    #after{
+        text-align: center;
+    }
+    
+    .after_head h4{
+        font-size: 0.6rem;
+    }
+    
+}
+@media only screen and (max-width:434px){
+    #after{
+        text-align: center;
+    }
+    
+    .after_head h4{
+        font-size: 0.6rem;
+    }
+    
+}

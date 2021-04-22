@@ -1,0 +1,93 @@
+.review_second {
+  margin: 1rem;
+  background-color: #fff;
+  padding: 2%;
+  width: 250px;
+  height: 200px;
+  position: relative;
+  box-shadow: 0 5px 10px -5px rgb(38, 57, 77);
+}
+#reviews {
+  background-image: linear-gradient(to right, #fff1e1 0%, #fff 100%);
+  height: 60vh;
+  width: 100%;
+  padding: 5%;
+}
+
+.review_first {
+  margin: 1rem;
+  padding: 2%;
+  width: 250px;
+  height: 200px;
+  position: relative;
+}
+
+.review_first h2 {
+  font-size: 1.6rem;
+  margin-bottom: 0.6rem;
+}
+.review_first > div {
+  margin-top: 1.5rem;
+}
+.review_first > div p {
+  font-size: 0.8rem;
+}
+
+.checked {
+  color: #ffc107;
+  margin: 0.2rem;
+}
+
+.review_second h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+.review_para {
+  font-size: 0.8rem;
+  margin-top: 0.8rem;
+  padding: 0px 0.4rem;
+}
+
+.review_link {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+  transition: all 0.1s ease;
+}
+.review_link:hover {
+  color: #000;
+}
+
+// Responsive
+
+@media screen and (max-width: 1100px) {
+  .review_first,
+  .review_second {
+    width: 200px;
+    height: 200px;
+  }
+  .slickk-arrow {
+    display: block;
+    color: #000;
+  }
+
+  .slick-prev::before {
+    color: #000;
+    display: block;
+    z-index: 100;
+    left: 20px !important;
+  }
+
+  .slick-next::before {
+    color: #000;
+    display: block;
+    z-index: 100;
+    right: 20px !important;
+  }
+  .review_para {
+    font-size: 0.6rem;
+  }
+}
